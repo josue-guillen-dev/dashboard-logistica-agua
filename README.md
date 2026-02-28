@@ -92,4 +92,4 @@ Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas
 📊 Perfil: Data Analyst | Especialista en Python, SQL y Visualización de Datos.
 📍 Ubicación: Santiago, Chile
 
-🔗 Contacto: [https://www.linkedin.com/in/josue-guillen-data/]
+🔗 Contacto: (https://www.linkedin.com/in/josue-guillen-data/)
