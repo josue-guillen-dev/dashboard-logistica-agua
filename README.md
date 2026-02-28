@@ -76,12 +76,12 @@ Los nombres de clientes, direcciones específicas y descripciones de gastos fuer
 Clonar el repositorio:
 Bash
 git clone [GITHUB](https://github.com/josue-guillen-dev/dashboard-logistica-agua.git)
-cd dashboard-logistica-agua
-Instalar dependencias:
-pip install -r requirements.txt
-Ejecutar el dashboard:
-streamlit run app.py
-```
+* cd dashboard-logistica-agua
+* Instalar dependencias:
+* pip install -r requirements.txt
+* Ejecutar el dashboard:
+* streamlit run app.py
+
 
 ```
 📈 Roadmap y Mejoras Futuras
