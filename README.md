@@ -79,10 +79,9 @@ git clone [https://github.com/josue-guillen-dev/dashboard-logistica-agua.git](ht
 cd dashboard-logistica-agua
 Instalar dependencias:
 pip install -r requirements.txt
-
 Ejecutar el dashboard:
 streamlit run app.py
-
+```
 
 📈 Roadmap y Mejoras Futuras
 Cargas Incrementales (Upsert): Transición de cargas completas (replace) a cargas incrementales (append) para optimizar recursos a medida que el volumen de datos escale.
@@ -93,4 +92,4 @@ Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas
 📊 Perfil: Data Analyst | Especialista en Python, SQL y Visualización de Datos.
 📍 Ubicación: Santiago, Chile
 
-🔗 Contacto: [LINKEDIN](https://www.linkedin.com/in/josue-guillen-data/)```
+🔗 Contacto: [LINKEDIN](https://www.linkedin.com/in/josue-guillen-data/)
