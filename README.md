@@ -75,10 +75,11 @@ Los nombres de clientes, direcciones específicas y descripciones de gastos fuer
 🚀 Instalación y Uso Local
 Clonar el repositorio:
 ```Bash
-git clone [https://github.com/josue-guillen-dev/dashboard-logistica-agua](https://github.com/josue-guillen-dev/dashboard-logistica-agua)
+git clone [https://github.com/josue-guillen-dev/dashboard-logistica-agua.git](https://github.com/josue-guillen-dev/dashboard-logistica-agua.git)
 cd dashboard-logistica-agua
 Instalar dependencias:
 pip install -r requirements.txt
+
 Ejecutar el dashboard:
 streamlit run app.py
 
@@ -92,4 +93,4 @@ Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas
 📊 Perfil: Data Analyst | Especialista en Python, SQL y Visualización de Datos.
 📍 Ubicación: Santiago, Chile
 
-🔗 Contacto: (https://www.linkedin.com/in/josue-guillen-data/)
+🔗 Contacto: [LINKEDIN](https://www.linkedin.com/in/josue-guillen-data/)
