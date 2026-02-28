@@ -75,7 +75,7 @@ Los nombres de clientes, direcciones específicas y descripciones de gastos fuer
 🚀 Instalación y Uso Local
 Clonar el repositorio:
 Bash
-git clone [GITHUB](https://github.com/josue-guillen-dev/dashboard-logistica-agua.git)
+git clone [https://github.com/josue-guillen-dev/dashboard-logistica-agua.git](https://github.com/josue-guillen-dev/dashboard-logistica-agua.git)
 * cd dashboard-logistica-agua
 * Instalar dependencias:
 * pip install -r requirements.txt
@@ -89,8 +89,9 @@ Cargas Incrementales (Upsert): Transición de cargas completas (replace) a carga
 Migración de Base de Datos: Escalar de SQLite a PostgreSQL en un entorno Cloud.
 Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas (Cron jobs o Apache Airflow).
 ```
+
+###
 👤 Autor: Josue Guillen
 📊 Perfil: Data Analyst | Especialista en Python, SQL y Visualización de Datos.
 📍 Ubicación: Santiago, Chile
-
 🔗 Contacto: [LINKEDIN](https://www.linkedin.com/in/josue-guillen-data/)
