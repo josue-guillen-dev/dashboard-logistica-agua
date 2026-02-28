@@ -87,9 +87,9 @@ streamlit run app.py
 * Migración de Base de Datos: Escalar de SQLite a PostgreSQL en un entorno Cloud.
 * Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas (Cron jobs o Apache Airflow).
 
-
-
+``` text
 👤 Autor: Josue Guillen
 📊 Perfil: Data Analyst | Especialista en Python, SQL y Visualización de Datos.
 📍 Ubicación: Santiago, Chile
+```
 🔗 Contacto: [LINKEDIN](https://www.linkedin.com/in/josue-guillen-data/)
