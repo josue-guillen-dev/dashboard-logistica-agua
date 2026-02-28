@@ -1,6 +1,6 @@
 ### 💧 End-to-End Data Pipeline & BI Dashboard | Planta Purificadora de Agua
 
-🔗 **Demo del Proyecto:** [Inserta el enlace a tu Streamlit aquí]
+🔗 **Demo del Proyecto:** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dashboard-logistica-agua.streamlit.app/)]
 
 ## 📌 Descripción General
 Proyecto integral de Ingeniería de Datos y Business Intelligence desarrollado para automatizar la consolidación operativa y financiera de una planta purificadora de agua. 
