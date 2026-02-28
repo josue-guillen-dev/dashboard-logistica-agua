@@ -72,16 +72,15 @@ No se incluyen credenciales API (credenciales.json) en este repositorio.
 La base de datos original fue sometida a un riguroso proceso de Data Masking (Anonimización) mediante un script personalizado en Pandas.
 Los nombres de clientes, direcciones específicas y descripciones de gastos fueron ofuscados (Cliente 1, Sector A, etc.), manteniendo intactas las relaciones y la coherencia matemática del modelo para demostrar su funcionamiento sin exponer información sensible de la empresa.
 ```
-🚀 Instalación y Uso Local
+### 🚀 Instalación y Uso Local
 Clonar el repositorio:
-Bash
+```Bash
 git clone [https://github.com/josue-guillen-dev/dashboard-logistica-agua.git](https://github.com/josue-guillen-dev/dashboard-logistica-agua.git)
 cd dashboard-logistica-agua
 Instalar dependencias:
 pip install -r requirements.txt
 Ejecutar el dashboard:
 streamlit run app.py
-```
 ```
 📈 Roadmap y Mejoras Futuras
 * Cargas Incrementales (Upsert): Transición de cargas completas (replace) a cargas incrementales (append) para optimizar recursos a medida que el volumen de datos escale.
