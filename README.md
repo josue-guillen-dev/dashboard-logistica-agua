@@ -71,7 +71,7 @@ Por políticas de confidencialidad y ética profesional:
 No se incluyen credenciales API (credenciales.json) en este repositorio.
 La base de datos original fue sometida a un riguroso proceso de Data Masking (Anonimización) mediante un script personalizado en Pandas.
 Los nombres de clientes, direcciones específicas y descripciones de gastos fueron ofuscados (Cliente 1, Sector A, etc.), manteniendo intactas las relaciones y la coherencia matemática del modelo para demostrar su funcionamiento sin exponer información sensible de la empresa.
-
+```
 🚀 Instalación y Uso Local
 Clonar el repositorio:
 ```Bash
