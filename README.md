@@ -1,4 +1,4 @@
-💧 End-to-End Data Pipeline & BI Dashboard | Planta Purificadora de Agua
+### 💧 End-to-End Data Pipeline & BI Dashboard | Planta Purificadora de Agua
 
 🔗 **Demo del Proyecto:** [Inserta el enlace a tu Streamlit aquí]
 
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 Ejecutar el dashboard:
 streamlit run app.py
 ```
-📈 Roadmap y Mejoras Futuras
+### 📈 Roadmap y Mejoras Futuras
 * Cargas Incrementales (Upsert): Transición de cargas completas (replace) a cargas incrementales (append) para optimizar recursos a medida que el volumen de datos escale.
 * Migración de Base de Datos: Escalar de SQLite a PostgreSQL en un entorno Cloud.
 * Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas (Cron jobs o Apache Airflow).
