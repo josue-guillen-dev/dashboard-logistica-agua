@@ -31,15 +31,28 @@ def limpiar_fecha_sql(fecha_texto):
     """
     texto = str(fecha_texto).lower().strip()
     
-    if not texto:
+    # Si está vacía o es nula, chao
+    if not texto or texto == "nan" or texto == "nat":
         return ""
+        
+    # 1. Si Pandas le metió la hora oculta (Ej: '2023-11-17 00:00:00')
+    if "00:00:00" in texto:
+        texto = texto.split(" ")[0] # Nos quedamos solo con '2023-11-17'
+        
+    # 2. Si ya viene lista y perfecta desde Pandas (Ej: '2023-11-17')
+    if "-" in texto and len(texto.split("-")[0]) == 4:
+        return texto
         
     # Si la secretaria lo escribió bien con barritas (Ej. 14/05/2023)
     if "/" in texto:
         partes = texto.split("/")
         if len(partes) == 3:
+            anio = partes[2]
+            # MAGIA AQUÍ: Si el año tiene solo 2 números (ej. "24"), le pegamos el "20" adelante
+            if len(anio) == 2:
+                anio = "20" + anio
             # Asumimos que viene como Día/Mes/Año
-            return f"{partes[2]}-{partes[1].zfill(2)}-{partes[0].zfill(2)}"
+            return f"{anio}-{partes[1].zfill(2)}-{partes[0].zfill(2)}"
         return texto # Si es algo raro, lo devuelve como está
         
     # Diccionario traductor de meses a números
@@ -606,7 +619,7 @@ for archivo_info in lista_de_archivos:
 
         # --- LOGICA DE SIEMPRE ---
         for hoja in sheet.worksheets():
-            time.sleep(1.2)
+            time.sleep(1.1)
             titulo = hoja.title.strip()
             partes = titulo.split()
             fecha_texto = partes[-1]
