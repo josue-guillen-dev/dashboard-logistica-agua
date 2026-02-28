@@ -27,12 +27,12 @@ if 'CLIENTE' in df_pendientes.columns: df_pendientes['CLIENTE'] = 'Cliente ' + (
 if 'PRODUCTO' in df_adicionales.columns: df_adicionales['PRODUCTO'] = 'Producto ' + (df_adicionales.groupby('PRODUCTO').ngroup() + 1).astype(str)
 if 'DIRECCION' in df_rutas.columns: df_rutas['DIRECCION'] = 'Sector ' + (df_rutas.groupby('DIRECCION').ngroup() + 1).astype(str)
 if 'COMUNA' in df_rutas.columns: df_rutas['COMUNA'] = 'Zona ' + (df_rutas.groupby('COMUNA').ngroup() + 1).astype(str)
-if 'CATEGORIA' in df_gastos.columns: df_gastos['CATEGORIA'] = 'Categoría ' + (df_gastos.groupby('CATEGORIA').ngroup() + 1).astype(str)
+#if 'CATEGORIA' in df_gastos.columns: df_gastos['CATEGORIA'] = 'Categoría ' + (df_gastos.groupby('CATEGORIA').ngroup() + 1).astype(str)
 if 'DESCRIPCION' in df_gastos.columns: df_gastos['DESCRIPCION'] = 'Detalle ' + (df_gastos.groupby('DESCRIPCION').ngroup() + 1).astype(str)
 
 # 3. CREAMOS LA BASE DE DATOS FALSA (Para GitHub)
 print("💾 Guardando la nueva base de datos de portafolio...")
-conn_falsa = sqlite3.connect("db_portafolio.db")
+conn_falsa = sqlite3.connect("db_portafolio1.db")
 
 df_ventas.to_sql("ventas_diarias", conn_falsa, if_exists="replace", index=False)
 df_gastos.to_sql("gastos", conn_falsa, if_exists="replace", index=False)
