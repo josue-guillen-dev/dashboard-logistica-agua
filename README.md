@@ -18,7 +18,7 @@ La solución reemplaza un proceso manual y propenso a errores (basado en múltip
 
 ## 🏗️ Arquitectura del Sistema
 
-text
+```text
 [Google Drive / Google Sheets] (Fuentes de Datos Desestructuradas)
             │
             ▼
@@ -71,7 +71,7 @@ Por políticas de confidencialidad y ética profesional:
 No se incluyen credenciales API (credenciales.json) en este repositorio.
 La base de datos original fue sometida a un riguroso proceso de Data Masking (Anonimización) mediante un script personalizado en Pandas.
 Los nombres de clientes, direcciones específicas y descripciones de gastos fueron ofuscados (Cliente 1, Sector A, etc.), manteniendo intactas las relaciones y la coherencia matemática del modelo para demostrar su funcionamiento sin exponer información sensible de la empresa.
-
+```
 🚀 Instalación y Uso Local
 Clonar el repositorio:
 ```Bash
@@ -82,12 +82,12 @@ pip install -r requirements.txt
 Ejecutar el dashboard:
 streamlit run app.py
 ```
-
+```
 📈 Roadmap y Mejoras Futuras
 Cargas Incrementales (Upsert): Transición de cargas completas (replace) a cargas incrementales (append) para optimizar recursos a medida que el volumen de datos escale. /n
 Migración de Base de Datos: Escalar de SQLite a PostgreSQL en un entorno Cloud.
 Automatización Serverless: Ejecutar el pipeline ETL mediante tareas programadas (Cron jobs o Apache Airflow).
-
+```
 👤 Autor: Josue Guillen
 📊 Perfil: Data Analyst | Especialista en Python, SQL y Visualización de Datos.
 📍 Ubicación: Santiago, Chile
