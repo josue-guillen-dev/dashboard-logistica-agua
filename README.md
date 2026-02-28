@@ -74,7 +74,7 @@ Los nombres de clientes, direcciones específicas y descripciones de gastos fuer
 ```
 🚀 Instalación y Uso Local
 Clonar el repositorio:
-```Bash
+Bash
 git clone [GITHUB](https://github.com/josue-guillen-dev/dashboard-logistica-agua.git)
 cd dashboard-logistica-agua
 Instalar dependencias:
