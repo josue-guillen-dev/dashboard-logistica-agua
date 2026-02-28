@@ -1,0 +1,11 @@
+# Ignorar credenciales de API
+credenciales.json
+
+# Ignorar base de datos real (Datos sensibles)
+planta_agua3.db
+
+# Ignorar caché de Python y entornos virtuales (Buenas prácticas)
+__pycache__/
+.venv/
+venv/
+.env
