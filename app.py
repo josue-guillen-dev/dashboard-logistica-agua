@@ -223,7 +223,7 @@ with tab1:
         
         st.bar_chart(ventas_recargas, color="#114553")
     with st.expander("🔎 Ver Datos Detallados (Click para desplegar)"):
-        st.dataframe(df_ventas_filtrado[['FECHA','CLIENTE',"TIPO_PRODUCTO",'CANTIDAD','PRECIO','TOTAL-PAGAR','EFECTIVO','TRANSFERENCIA','TARJETA']], use_container_width=True, hide_index=True)
+        st.dataframe(df_ventas_filtrado[['FECHA','CLIENTE',"TIPO_PRODUCTO",'CANTIDAD','PRECIO','TOTAL-PAGAR','EFECTIVO','TRANSFERENCIA','TARJETA','PENDIENTE']], use_container_width=True, hide_index=True)
     
             
 with tab2:
