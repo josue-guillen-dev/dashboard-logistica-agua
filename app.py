@@ -101,7 +101,7 @@ df_adicionales = datos["adicionales"]
 df_pendientes = datos["pendientes"]
 df_recargas = datos["recargas"]
 
-st.title("💧 AGUAS INTERNACIONALES SPA")
+st.title("💧 AGUAS INTERNACIONALES")
 
 # (Importante: Ahora en tu gráfico de abajo debes usar 'df_ventas_filtrado' en lugar de 'df_ventas')
 
