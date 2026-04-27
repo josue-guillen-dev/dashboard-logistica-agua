@@ -128,6 +128,7 @@ with tab1:
         # Selector de fecha de inicio
         # 1. Forzamos a que todo en esa columna sea tratado como Fecha. 
         # errors='coerce' hace que cualquier celda vacía o texto mal escrito se convierta en 'NaT' (Not a Time)
+        
         df_ventas_maestra["FECHA"] = pd.to_datetime(df_ventas_maestra["FECHA"], errors='coerce')
 
         # 2. Pasamos la escoba: Eliminamos cualquier fila donde la fecha sea nula (NaT)
@@ -264,7 +265,7 @@ with tab2:
         fecha_select = st.selectbox("📅 Seleccione Dia:", fecha_ruta)
     # --- 🚀 APLICAMOS TODOS LOS FILTROS AL DATAFRAME FINAL ---
     if fecha_select != "Todos":
-        df_ruta_temp = df_ruta_temp[df_ruta_temp["FECHA"].astype(str) == fecha_select.copy()]
+        df_ruta_temp = df_ruta_temp[df_ruta_temp["FECHA"].astype(str) == fecha_select]
 
     df_rutas_filtrado = df_ruta_temp # Ya viene con el filtro de comuna aplicado
         

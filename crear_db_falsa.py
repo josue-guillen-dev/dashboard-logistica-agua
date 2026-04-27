@@ -32,7 +32,7 @@ if 'DESCRIPCION' in df_gastos.columns: df_gastos['DESCRIPCION'] = 'Detalle ' + (
 
 # 3. CREAMOS LA BASE DE DATOS FALSA (Para GitHub)
 print("💾 Guardando la nueva base de datos de portafolio...")
-conn_falsa = sqlite3.connect("db_portafolio1.db")
+conn_falsa = sqlite3.connect("db_portafolio.db")
 
 df_ventas.to_sql("ventas_diarias", conn_falsa, if_exists="replace", index=False)
 df_gastos.to_sql("gastos", conn_falsa, if_exists="replace", index=False)
